@@ -61,6 +61,29 @@ nav ul li {
   border-radius: 4px;
 }
 
+/* Partidos */
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.round-image {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.image {
+  width: 70px;
+  height: 80px;
+  border-radius: 0%;
+}
+
 /* Estilos del carrusel de la plantilla */
 
 #plantilla .carousel {
@@ -82,6 +105,29 @@ nav ul li {
   height: 500px;
   object-fit: cover;
   border-radius: 4px;
+}
+
+/* Noticias */
+.noticias {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+
+/* Contacto */
+.redes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.instagram {
+  width: 80px;
+  height: 80px;
+  border-radius: 0%;
 }
 
 /* Estilos del footer */
