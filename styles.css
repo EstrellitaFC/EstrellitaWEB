@@ -137,3 +137,21 @@ footer {
   padding: 20px;
   text-align: center;
 }
+
+/* Estilos generales para todas las pantallas */
+/* ... Aquí van tus estilos generales ... */
+
+/* Estilos específicos para dispositivos móviles */
+@media (max-width: 768px) {
+  /* ... Aquí van los estilos específicos para dispositivos móviles ... */
+}
+
+/* Estilos específicos para tabletas */
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* ... Aquí van los estilos específicos para tabletas ... */
+}
+
+/* Estilos específicos para pantallas de escritorio */
+@media (min-width: 1024px) {
+  /* ... Aquí van los estilos específicos para pantallas de escritorio ... */
+}
